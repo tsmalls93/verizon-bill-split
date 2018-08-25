@@ -1,6 +1,6 @@
 # verizon-bill-split
 
-##Running
+## Running
 
 * Clone down the repository
 * Run the program in the repo directory from a shell
