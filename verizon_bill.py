@@ -21,10 +21,11 @@ def validate(amount):
         amount = raw_input("Try again: $")
     return amount
 
-
+print("Welcome To Tyler's Verizon Bill Splitter")
 choice = raw_input("Would you like to see what everybody owes (Enter 1) or just what you owe (Enter 2)? ")
 while choice != "1" and choice != "2":
     choice = raw_input("Try again...Would you like to see what everybody owes (Enter 1) or just what you owe (Enter 2)? ")
+print("Notice: The last person to pay may have to pay an extra cent depending on the amount for the charges we split since we cannot each pay a third of a cent")
 if choice == '1':
     confirm = 'n'
     while confirm == 'n':
